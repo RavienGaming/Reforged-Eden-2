@@ -1,5 +1,5 @@
-name: Bug Report
-description: File a bug report.
+name: Scenario Bug Report
+description: Submit a report about a problem with Reforged Eden 2.
 title: "[Bug]: "
 labels: ["bug", "triage"]
 projects: ["octo-org/1", "octo-org/44"]
