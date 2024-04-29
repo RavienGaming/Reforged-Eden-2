@@ -9,7 +9,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "\n# \n# Basic Information:"
+    value: "\n# \n# Basic Information:\n*Basic information about your report that will help us narrow down the problem.*"
 - type: checkboxes
   id: readtroubleshoot
   attributes:
@@ -62,7 +62,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "\n# \n# Details:"
+    value: "\n# \n# Details:\n*Detailed information about the exact issue you are having.*"
 - type: textarea
   id: issue
   attributes:
