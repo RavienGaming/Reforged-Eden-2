@@ -36,15 +36,18 @@ body:
       - No, it does not match. (Your issue may be due to an outdated version of the scenario)
   validations:
     required: true
-- type: checkboxes
+- type: dropdown
   id: mode
   attributes:
     label: "Game mode"
     description: "Game mode where the issue occurs. Note that playing Reforged Eden 2 in co-op is not recommended."
+    multiple: true
     options:
-      - label: Single Player
-      - label: Co-op
-      - label: Dedicated Server
+      - Single Player
+      - Co-op
+      - Dedicated Server
+  validations:
+    required: true
 
 - type: markdown
   attributes:
