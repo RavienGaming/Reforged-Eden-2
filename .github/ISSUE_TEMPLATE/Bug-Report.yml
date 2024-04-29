@@ -14,9 +14,9 @@ body:
   id: readtroubleshoot
   attributes:
     label: Important Troubleshooting Information
-    description: "Before reporting any issue, please read over the troubleshooting thread posted here: https://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/"
+    description: "Before reporting any issue, please do a quick search to see if your issue was already posted here on GitHub and read over the troubleshooting thread posted on the Workshop: https://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/"
     options:
-      - label: I have read the troubleshooting thread.
+      - label: I have.
         required: true
 - type: input
   id: build
@@ -29,11 +29,11 @@ body:
 - type: dropdown
   id: buildnewest
   attributes:
-    label: "Is your RE2 version up to date?"
+    label: "Is your RE2 build up to date?"
     description: "You can compare your build number versus the one in the latest change notes posted at https://steamcommunity.com/sharedfiles/filedetails/changelog/3143225812.\nPlease note that if your current build is out of date or your issue was already fixed but requires a new save your report may be closed."
     options:
       - Yes, it matches.
-      - No, it does not match.
+      - No, it does not match. (Your issue may be due to an outdated version of the scenario)
   validations:
     required: true
 - type: checkboxes
@@ -69,6 +69,13 @@ body:
     label: Star Class (Optional)
     description: "Class of the star system from the galaxy map where the issue occurs. Appears on the galaxy map in brackets next to the name."
     placeholder: "G2, B, O3, F"
+- type: input
+  id: mission
+  attributes:
+    label: Mission Name (Optional)
+    description: "Name of the mission that has a problem. Please include the full mission name and the stage of the mission that has the problem."
+    placeholder: "G2, B, O3, F"
+
 
 - type: markdown
   attributes:
@@ -78,7 +85,7 @@ body:
   attributes:
     label: What is the issue
     description: "Please provide a detailed description of what the problem is. Make sure to include any relevant information needed."
-    placeholder: "ex I get an error popup anytime I shoot the Advanced Pistol."
+    placeholder: "ex I get an error popup anytime I shoot the Advanced Pistol, Project Eden Prologue mission does not complete when talking to captain, game crashes when warping to R class planets."
   validations:
     required: true
 - type: textarea
@@ -88,5 +95,4 @@ body:
     description: "If there is an error shown in your console or logs, please copy and paste or describe the error here. Please do not upload your entire game log, only the relevant part with the error."
     placeholder: "ex Playfieldtype not found for playfield Eta Delta, Unknown Mesh xxxx/yyyy"
   validations:
-    required: true
-
+    required: false
