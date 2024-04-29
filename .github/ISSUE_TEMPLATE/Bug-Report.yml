@@ -73,7 +73,7 @@ body:
     description: "Name or description of the mission objective that has a problem."
     placeholder: "ex Finding Dead type 5 planet, warping to UCH Research Vessel."
 - type: input
-  id: objective
+  id: poiname
   attributes:
     label: POI Name
     description: "Exact spawn name of the POI that has a problem."
