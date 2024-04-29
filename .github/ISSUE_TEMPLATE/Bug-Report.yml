@@ -1,15 +1,17 @@
 name: Scenario Bug Report
 description: Submit a report about a problem with Reforged Eden 2.
 title: "[Bug]: "
-labels: ["bug", "triage"]
-projects: ["octo-org/1", "octo-org/44"]
-assignees:
-  - Ravien and Vermillion
+labels: ["bug", "new"]
+projects: ["Reforged Eden 2"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        "# Important: Read First"
+  - type: markdown
+    attributes:
+      value: |
+        "Thank you for taking the time to report an issue with Reforged Eden 2!"
   - type: input
     id: contact
     attributes:
