@@ -36,7 +36,7 @@ body:
   id: vanilla
   attributes:
     label: "Tested in Vanilla"
-    description: "If possible, please test the issue in a vanilla save game using the same game mode (SP/co-op/dedi/survival/creative) to rule it out being a game bug.\n**If the issue happens in a vanilla save game then it needs to be reported to the game developers at:** https://empyriononline.com/forums/bugs.24/"
+    description: "If possible, please test the issue in a vanilla save game using the same game mode (SP/co-op/dedi/survival/creative) to rule it out being a game bug.\n\n**We cannot fix game bugs. If the issue happens in a vanilla save game then it needs to be reported to the game developers at:** https://empyriononline.com/forums/bugs.24/"
     multiple: false
     options:
       - Not tested in vanilla
