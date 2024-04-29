@@ -2,7 +2,6 @@ name: Scenario Bug Report
 description: Submit a report about a problem with Reforged Eden 2.
 title: "[Bug]: "
 labels: ["bug", "new"]
-projects: ["Reforged Eden 2"]
 body:
 - type: markdown
   attributes:
@@ -25,8 +24,29 @@ body:
     description: "Game mode where the issue occurs. Note that playing Reforged Eden 2 in co-op is not recommended."
     options:
       - label: Single Player
-        required: true
       - label: Co-op
-        required: true
       - label: Dedicated Server
-        required: true
+- type: input
+  id: pfname
+  attributes:
+    label: Playfield Name
+    description: "Name of the planet, moon, or sector where the issue occurs. (Optional)"
+    placeholder: "ex Sienna, Delta IV, Epsilon Rho"
+- type: input
+  id: pftype
+  attributes:
+    label: Playfield Class
+    description: "Class of the planet, moon, or sector where the issue occurs. You can find the playfield class on the map description. (Optional)"
+    placeholder: "ex Temperate, Rocky Desert, Poor Quality Asteroid Field"
+- type: input
+  id: starname
+  attributes:
+    label: Star Name
+    description: "Name of the star system from the galaxy map where the issue occurs. (Optional)"
+    placeholder: "ex Alpha, Beta, Neyta Rho"
+- type: input
+  id: starclass
+  attributes:
+    label: Star Class
+    description: "Class of the star system from the galaxy map where the issue occurs. Appears on the galaxy map in brackets next to the name. (Optional)"
+    placeholder: "G2, B, O3, F"
