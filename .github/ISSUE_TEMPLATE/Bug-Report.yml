@@ -8,13 +8,7 @@ body:
     value: "## Please read first!"
 - type: markdown
   attributes:
-    value: "Thank you for taking the time to report a problem with Reforged Eden 2!\n**Before reporting any issue, please read over the troubleshooting steps located on the Workshop here:**\nhttps://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/"
-- type: markdown
-  attributes:
-    value: "If those steps were not able to fix your issue or were not relevant, please fill out this bug report to the best of your ability. Providing as much detailed information as possible will make it easier for us to fix the problem.\nPlease note that there are many game bugs that we are not able to fix. If your issue is a game bug it may be closed."
-- type: markdown
-  attributes:
-    value: "> [!IMPORTANT]\n> Thank you for taking the time to report a problem with Reforged Eden 2!\n**Before reporting any issue, please read over the troubleshooting steps located on the Workshop here:**\nhttps://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/\n> If those steps were not able to fix your issue or were not relevant, please fill out this bug report to the best of your ability. Providing as much detailed information as possible will make it easier for us to fix the problem.\n> Please note that there are many game bugs that we are not able to fix. If your issue is a game bug it may be closed."
+    value: "> [!IMPORTANT]\n> Please read first\n**Before reporting any issue, please read over the troubleshooting steps located on the Workshop here:**\nhttps://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/\n> If those steps were not able to fix your issue or were not relevant, please fill out this bug report to the best of your ability. Providing as much detailed information as possible will make it easier for us to fix the problem.\n> Please note that there are many game bugs that we are not able to fix. If your report is about a game bug or isn't filled out properly it may be closed."
 
 - type: markdown
   attributes:
