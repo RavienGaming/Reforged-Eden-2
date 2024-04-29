@@ -52,7 +52,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "\n# \n# Optional Information:\n*Information that could be useful for certain types of reports such as POIs, missions, or playfields."
+    value: "\n# \n# Optional Information:\n*Could be especially useful for reports involving problems with POIs, missions, or playfields."
 - type: input
   id: poiname
   attributes:
