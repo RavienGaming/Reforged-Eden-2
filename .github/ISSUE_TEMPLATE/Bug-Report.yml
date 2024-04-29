@@ -6,28 +6,4 @@ projects: ["Reforged Eden 2"]
 body:
 - type: markdown
   attributes:
-    value:
-      "## Important: Please Read First"
-- type: markdown
-  attributes:
-    value:
-      "Thank you for taking the time to report an issue with Reforged Eden 2!\nPlease fill out this form with all relevant information. Bug reports that lack needed information may be ignored.\n**Note that we cannot assist with game bugs. If your issue is a result of a game bug it will be closed.**"
-- type: markdown
-  attributes:
-    value:
-      "Before making any report, please verify that the RE2 Build Number shown on the player inventory in-game or on the loading screen when loading into the scenario matches the build number on the latest change notes for the scenario."
-- type: input
-  attributes:
-    label: Reforged Eden Build Number
-    description: What is the Reforged Eden 2 Build that you are running? The build number can be found either on the Player Inventory window in-game or on the loading screen when loading a RE2 save game.
-    placeholder: ex. 20
-  validations:
-    required: true
-- type: checkboxes
-  attributes:
-    label: When did the issue occur?
-    description: Please select the mode(s) the issue happens in.
-  options:
-    - label: Orange cat (required. Everyone likes orange cats.)
-      required: true
-    - label: "**Black cat**"
+    value: "## Welcome!"
