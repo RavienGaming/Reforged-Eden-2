@@ -27,6 +27,7 @@ body:
     description: "Game modes where the issue occurs. You can select multiple options.\n*Co-op is not recommended for Reforged Eden 2.\nIf playing on a server you may first want to contact your server owner as this may be a server configuration problem rather than a scenario problem.*"
     multiple: true
     options:
+      - ''
       - Single Player
       - Co-op
       - Dedicated Server
