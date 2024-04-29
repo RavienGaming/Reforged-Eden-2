@@ -30,7 +30,7 @@ body:
   id: buildnewest
   attributes:
     label: "Is your RE2 version up to date?"
-    description:"You can compare your build number versus the one in the latest change notes posted at https://steamcommunity.com/sharedfiles/filedetails/changelog/3143225812.\nPlease note that if your current build is out of date or your issue was already fixed but requires a new save your report may be closed."
+    description:"You can compare your build number versus the one in the latest change notes posted at https://steamcommunity.com/sharedfiles/filedetails/changelog/3143225812\nPlease note that if your current build is out of date or your issue was already fixed but requires a new save your report may be closed."
     options:
       - Yes, it matches.
       - No, it does not match.
