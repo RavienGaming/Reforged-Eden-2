@@ -52,7 +52,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "\n# \n# Optional Information:\nOptional information that is relevant to help narrow down the issue.\n*Sections not relevant can be left blank.*"
+    value: "\n# \n# Optional Information:\nCan help narrow down where the issue occurs. Especially helpful for POI, mission, or playfield errors."
 - type: input
   id: poiname
   attributes:
