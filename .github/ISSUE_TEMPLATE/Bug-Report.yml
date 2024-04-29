@@ -72,13 +72,13 @@ body:
   attributes:
     label: Star Class (Optional)
     description: "Class of the star system from the galaxy map where the issue occurs. Appears on the galaxy map in brackets next to the name."
-    placeholder: "G2, B, O3, F"
+    placeholder: "ex G2, B, O3, F"
 - type: input
   id: mission
   attributes:
     label: Mission Name (Optional)
     description: "Name of the mission that has a problem. Please include the full mission name and the stage of the mission that has the problem."
-    placeholder: "G2, B, O3, F"
+    placeholder: "ex The Dead type 5, Project Eden Prologue warp to UCH Research Vessel"
 
 
 - type: markdown
