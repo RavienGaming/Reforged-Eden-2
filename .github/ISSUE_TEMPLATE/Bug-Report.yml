@@ -112,7 +112,7 @@ body:
   id: seed
   attributes:
     label: Game Seed
-    description: "Seed used when you started the save game. Can be accessed in singleplayer with the console command stats or in the dedicated.yaml used for dedicated servers."
+    description: "Global seed used when you started the save game. Can be accessed in singleplayer with the console command **stats** or in the dedicated.yaml used for dedicated servers."
     placeholder: "12345678"
 
 - type: markdown
