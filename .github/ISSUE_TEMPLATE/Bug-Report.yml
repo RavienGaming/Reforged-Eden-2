@@ -8,7 +8,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "\n# \n# Required Information:\n*Basic information about your report that will help us narrow down the problem.*"
+    value: "\n# \n# Required Information:\n*Basic information about your report.*"
 - type: markdown
   attributes:
     value: "*Reminder before reporting any issue to please do a quick search to see if your issue was already posted here on GitHub (don't forget to search closed issues as well) and read over the troubleshooting thread posted on the Workshop:* https://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/"
@@ -35,7 +35,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "\n# \n# Description:\n*Detailed information about the exact issue you are having.*"
+    value: "\n# \n# Description:\n*A description of the problem you encountered.*"
 - type: textarea
   id: issue
   attributes:
