@@ -35,53 +35,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "\n# \n# Optional Information:\n*Optional information that is relevant. Sections not relevant to your report can be left blank.*"
-- type: input
-  id: pfname
-  attributes:
-    label: Playfield Name (Optional)
-    description: "Name of the planet, moon, or sector where the issue occurs."
-    placeholder: "ex Sienna, Delta IV, Epsilon Rho"
-- type: input
-  id: pftype
-  attributes:
-    label: Playfield Class (Optional)
-    description: "Class of the planet, moon, or sector where the issue occurs. You can find the playfield class on the map description."
-    placeholder: "ex Temperate, Rocky Desert, Poor Quality Asteroid Field"
-- type: input
-  id: starname
-  attributes:
-    label: Star Name (Optional)
-    description: "Name of the star system from the galaxy map where the issue occurs."
-    placeholder: "ex Alpha, Beta, Neyta Rho"
-- type: input
-  id: starclass
-  attributes:
-    label: Star Class (Optional)
-    description: "Class of the star system from the galaxy map where the issue occurs. Appears on the galaxy map in brackets next to the name."
-    placeholder: "ex G2, B, O3, F"
-- type: input
-  id: mission
-  attributes:
-    label: Mission Name (Optional)
-    description: "Name of the mission that has a problem. Please include the full mission name as seen in the PDA."
-    placeholder: "ex The Dead type 5, Project Eden Prologue"
-- type: input
-  id: objective
-  attributes:
-    label: Mission Objective (Optional)
-    description: "Name or description of the mission objective that has a problem."
-    placeholder: "ex Finding Dead type 5 planet, warping to UCH Research Vessel."
-- type: input
-  id: poiname
-  attributes:
-    label: POI Name
-    description: "Exact spawn name of the POI that has a problem."
-    placeholder: "ex Kennex Station, Lost Colony."
-
-- type: markdown
-  attributes:
-    value: "\n# \n# Details:\n*Detailed information about the exact issue you are having.*"
+    value: "\n# \n# Description:\n*Detailed information about the exact issue you are having.*"
 - type: textarea
   id: issue
   attributes:
@@ -98,6 +52,53 @@ body:
     placeholder: "ex Playfieldtype not found for playfield Eta Delta, Unknown Mesh xxxx/yyyy"
   validations:
     required: false
+
+- type: markdown
+  attributes:
+    value: "\n# \n# Optional Information:\nOptional information that is relevant to help narrow down the issue.\n*Sections not relevant can be left blank.*"
+- type: input
+  id: poiname
+  attributes:
+    label: POI Name
+    description: "Exact spawn name of the POI that has a problem."
+    placeholder: "ex Kennex Station, Lost Colony."
+- type: input
+  id: pfname
+  attributes:
+    label: Playfield Name
+    description: "Name of the planet, moon, or sector where the issue occurs."
+    placeholder: "ex Sienna, Delta IV, Epsilon Rho"
+- type: input
+  id: pftype
+  attributes:
+    label: Playfield Class
+    description: "Class of the planet, moon, or sector where the issue occurs. You can find the playfield class on the map description."
+    placeholder: "ex Temperate, Rocky Desert, Poor Quality Asteroid Field"
+- type: input
+  id: starname
+  attributes:
+    label: Star Name
+    description: "Name of the star system from the galaxy map where the issue occurs."
+    placeholder: "ex Alpha, Beta, Neyta Rho"
+- type: input
+  id: starclass
+  attributes:
+    label: Star Class
+    description: "Class of the star system from the galaxy map where the issue occurs. Appears on the galaxy map in brackets next to the name."
+    placeholder: "ex G2, B, O3, F"
+- type: input
+  id: mission
+  attributes:
+    label: Mission Name
+    description: "Name of the mission that has a problem. Please include the full mission name as seen in the PDA."
+    placeholder: "ex The Dead type 5, Project Eden Prologue"
+- type: input
+  id: objective
+  attributes:
+    label: Mission Objective
+    description: "Name or description of the mission objective that has a problem."
+    placeholder: "ex Finding Dead type 5 planet, warping to UCH Research Vessel."
+
 
 - type: markdown
   attributes:
