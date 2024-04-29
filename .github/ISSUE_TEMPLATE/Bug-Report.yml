@@ -6,7 +6,10 @@ projects: ["Reforged Eden 2"]
 body:
 - type: markdown
   attributes:
-    value: "## Welcome!"
+    value: "## Please read first!"
+- type: markdown
+  attributes:
+    value: "**Thank you for taking the time to report a problem with Reforged Eden 2! Before reporting any issue, please read over the standard troubleshooting steps located here: https://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/"
 - type: input
   id: prevalence
   attributes:
