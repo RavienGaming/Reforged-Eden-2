@@ -52,7 +52,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "\n# \n# Optional Information:"
+    value: "\n# \n# Optional Information:\n*Information that could be useful for certain types of reports such as POIs, missions, or playfields."
 - type: input
   id: poiname
   attributes:
@@ -95,7 +95,12 @@ body:
     label: Mission Objective
     description: "Name or description of the mission objective that has a problem."
     placeholder: "ex Finding Dead type 5 planet, warping to UCH Research Vessel."
-
+- type: input
+  id: seed
+  attributes:
+    label: Game Seed
+    description: "Seed used when you started the save game. Can be accessed in singleplayer with the console command stats or in the dedicated.yaml used for dedicated servers."
+    placeholder: "12345678"
 
 - type: markdown
   attributes:
