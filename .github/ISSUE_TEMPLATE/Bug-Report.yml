@@ -9,6 +9,10 @@ body:
 - type: markdown
   attributes:
     value: "**Thank you for taking the time to report a problem with Reforged Eden 2!**"
+
+- type: markdown
+  attributes:
+    value: "## Basic Information!"
 - type: checkboxes
   id: readtroubleshoot
   attributes:
