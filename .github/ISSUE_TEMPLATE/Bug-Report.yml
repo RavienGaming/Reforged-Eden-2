@@ -40,9 +40,9 @@ body:
     multiple: false
     options:
       - ''
-      - Not tested in vanilla
+      - Not tested in vanilla or not applicable
       - Issue does not happen in vanilla
-      - Issue was reproduced in vanilla
+      - Reproduced in vanilla
   validations:
     required: true
 
