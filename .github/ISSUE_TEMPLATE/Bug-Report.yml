@@ -9,7 +9,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "\n# \n# Basic Information:\n*Basic information about your report that will help us narrow down the problem.*"
+    value: "\n# \n# Required Information:\n*Basic information about your report that will help us narrow down the problem.*"
 - type: checkboxes
   id: readtroubleshoot
   attributes:
@@ -45,6 +45,10 @@ body:
       - label: Single Player
       - label: Co-op
       - label: Dedicated Server
+
+- type: markdown
+  attributes:
+    value: "\n# \n# Optional Information:\n*Optional information that is relevant. Sections not relevant to your report can be left blank.*"
 - type: input
   id: pfname
   attributes:
