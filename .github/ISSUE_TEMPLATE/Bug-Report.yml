@@ -97,3 +97,7 @@ body:
     placeholder: "ex Playfieldtype not found for playfield Eta Delta, Unknown Mesh xxxx/yyyy"
   validations:
     required: false
+
+- type: markdown
+  attributes:
+    value: "\n \nThank you so much for taking the time to make a report. We will reply as soon as possible."
