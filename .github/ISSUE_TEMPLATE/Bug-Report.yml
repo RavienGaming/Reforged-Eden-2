@@ -5,7 +5,7 @@ labels: ["bug", "new"]
 body:
 - type: markdown
   attributes:
-    value: "> [!IMPORTANT]\n> Please read first\n> **Before reporting any issue, please read over the troubleshooting steps located on the Workshop here:**\nhttps://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/\n> If those steps were not able to fix your issue or were not relevant, please fill out this bug report to the best of your ability. Providing as much detailed information as possible will make it easier for us to fix the problem.\n> **This form is only for submitting reports about problems with the Reforged Eden 2 scenario. We are unable to assist with issues from other scenarios or with game bugs. If your report is about a game bug or isn't filled out properly it will be closed.**"
+    value: "> [!IMPORTANT]\n> Before reporting any issue, please read over the troubleshooting steps located on the Workshop here:**\nhttps://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/\n> If those steps were not able to fix your issue or were not relevant, please fill out this bug report to the best of your ability. Providing as much detailed information as possible will make it easier for us to fix the problem.\n> **This form is only for submitting reports about problems with the Reforged Eden 2 scenario. We are unable to assist with issues from other scenarios or with game bugs. If your report is about a game bug or isn't filled out properly it will be closed.**"
 
 - type: markdown
   attributes:
