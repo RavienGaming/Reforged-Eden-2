@@ -8,7 +8,15 @@ body:
     value: "## Please read first!"
 - type: markdown
   attributes:
-    value: "**Thank you for taking the time to report a problem with Reforged Eden 2! Before reporting any issue, please read over the standard troubleshooting steps located here:** https://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/"
+    value: "**Thank you for taking the time to report a problem with Reforged Eden 2!**"
+- type: checkboxes
+  id: readtroubleshoot
+  attributes:
+    label: Important Troubleshooting Information
+    description: "Before reporting any issue, please read over the troubleshooting thread posted here: https://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/"
+    options:
+      - label: I have read the troubleshooting thread.
+        required: true
 - type: input
   id: build
   attributes:
