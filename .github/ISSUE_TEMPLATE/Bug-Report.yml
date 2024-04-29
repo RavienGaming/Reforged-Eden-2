@@ -17,7 +17,6 @@ body:
     options:
       - I have not searched for my issue or read the troubleshooting thread.
       - I have searched for my issue and read the troubleshooting thread.
-        required: true
   validations:
     required: true
 - type: input
