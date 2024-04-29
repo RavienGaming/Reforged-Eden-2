@@ -9,7 +9,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "# Basic Information!"
+    value: "## Basic Information:"
 - type: checkboxes
   id: readtroubleshoot
   attributes:
@@ -59,3 +59,24 @@ body:
     label: Star Class (Optional)
     description: "Class of the star system from the galaxy map where the issue occurs. Appears on the galaxy map in brackets next to the name."
     placeholder: "G2, B, O3, F"
+
+- type: markdown
+  attributes:
+    value: "## Details:"
+- type: textarea
+  id: issue
+  attributes:
+    label: What is the issue
+    description: "Please provide a detailed description of what the problem is. Make sure to include any relevant information needed."
+    placeholder: "ex I get an error popup anytime I shoot the Advanced Pistol."
+  validations:
+    required: true
+- type: textarea
+  id: errorcode
+  attributes:
+    label: Error code from console or log (Optional)
+    description: "If there is an error shown in your console or logs, please copy and paste or describe the error here. Please do not upload your entire game log, only the relevant part with the error."
+    placeholder: "ex Playfieldtype not found for playfield Eta Delta, Unknown Mesh xxxx/yyyy"
+  validations:
+    required: true
+
