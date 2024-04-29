@@ -9,12 +9,12 @@ body:
     value: "## Please read first!"
 - type: markdown
   attributes:
-    value: "**Thank you for taking the time to report a problem with Reforged Eden 2! Before reporting any issue, please read over the standard troubleshooting steps located here: https://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/"
+    value: "**Thank you for taking the time to report a problem with Reforged Eden 2! Before reporting any issue, please read over the standard troubleshooting steps located here:** https://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/"
 - type: input
   id: prevalence
   attributes:
-    label: Bug prevalence
-    description: "How often do you or others encounter this bug?"
-    placeholder: "Whenever I visit the user account page (1-2 times a week)"
+    label: Reforged Eden 2 Build Number
+    description: "What is the RE2 build number? You can find the RE2 build number on the player inventory window in-game or on the loading screen."
+    placeholder: "ex 1234"
   validations:
     required: true
