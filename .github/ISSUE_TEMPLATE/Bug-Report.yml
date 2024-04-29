@@ -24,8 +24,9 @@ body:
   id: buildnewest
   attributes:
     label: "Is your RE2 build up to date?"
-    description: "You can compare your build number versus the one in the latest change notes posted at https://steamcommunity.com/sharedfiles/filedetails/changelog/3143225812.\nPlease note that if your current build is out of date or your issue was already fixed but requires a new save your report may be closed."
+    description: "Please verify the build number shown in-game matches the build number of the latest Reforged Eden 2 update on the Workshop."
     options:
+      - "*Please select an option.*"
       - Yes, it matches.
       - No, it does not match. (Your issue may be due to an outdated version of the scenario)
       - Scenario doesn't load far enough to see.
