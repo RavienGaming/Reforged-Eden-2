@@ -16,7 +16,7 @@ body:
   id: build
   attributes:
     label: Reforged Eden 2 Build Number
-    description: "What is your RE2 build number? You can find the RE2 build number on the player inventory window in-game or on the loading screen.\nCompare your build number versus the one in the latest change notes posted at https://steamcommunity.com/sharedfiles/filedetails/changelog/3143225812. If you're unable to load the scenario put NA as the answer.\n*If your scenario is out of date or your issue was already fixed your report may be closed.*"
+    description: "What is your RE2 build number? You can find the RE2 build number on the player inventory window in-game or on the loading screen.\nCompare your build number versus the one in the latest change notes posted at https://steamcommunity.com/sharedfiles/filedetails/changelog/3143225812.\nIf you're unable to load the scenario put NA as the answer.\n*If your scenario is out of date or your issue was already fixed your report may be closed.*"
     placeholder: "ex 1234"
   validations:
     required: true
