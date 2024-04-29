@@ -64,9 +64,20 @@ body:
   id: mission
   attributes:
     label: Mission Name (Optional)
-    description: "Name of the mission that has a problem. Please include the full mission name and the stage of the mission that has the problem."
-    placeholder: "ex The Dead type 5, Project Eden Prologue warp to UCH Research Vessel"
-
+    description: "Name of the mission that has a problem. Please include the full mission name as seen in the PDA."
+    placeholder: "ex The Dead type 5, Project Eden Prologue"
+- type: input
+  id: objective
+  attributes:
+    label: Mission Objective (Optional)
+    description: "Name or description of the mission objective that has a problem."
+    placeholder: "ex Finding Dead type 5 planet, warping to UCH Research Vessel."
+- type: input
+  id: objective
+  attributes:
+    label: POI Name
+    description: "Exact spawn name of the POI that has a problem."
+    placeholder: "ex Kennex Station, Lost Colony."
 
 - type: markdown
   attributes:
