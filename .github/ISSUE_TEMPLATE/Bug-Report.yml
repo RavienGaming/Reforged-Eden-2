@@ -32,6 +32,18 @@ body:
       - Dedicated Server
   validations:
     required: true
+- type: dropdown
+  id: vanilla
+  attributes:
+    label: "Tested in Vanilla"
+    description: "If possible, please test the issue in a vanilla save game using the same game mode (SP/co-op/dedi/survival/creative) to rule it out being a game bug.\nIf the issue happens in a vanilla save game then it needs to be reported to the game developers at:\nhttps://empyriononline.com/forums/bugs.24/"
+    multiple: false
+    options:
+      - Not tested in vanilla
+      - Issue does not happen in vanilla
+      - Issue was reproduced in vanilla
+  validations:
+    required: true
 
 - type: textarea
   id: issue
