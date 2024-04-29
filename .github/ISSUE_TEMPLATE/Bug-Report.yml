@@ -26,7 +26,6 @@ body:
     placeholder: "ex 1234"
   validations:
     required: true
-body:
 - type: dropdown
   id: buildnewest
   attributes:
