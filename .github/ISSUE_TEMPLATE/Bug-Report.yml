@@ -6,12 +6,12 @@ projects: ["Reforged Eden 2"]
 body:
   - type: markdown
     attributes:
-      value: |
+      value:
         "## Important: Read First"
   - type: markdown
     attributes:
       value: |
-        "Thank you for taking the time to report an issue with Reforged Eden 2!"
+        Thank you for taking the time to report an issue with Reforged Eden 2!
   - type: input
     id: contact
     attributes:
