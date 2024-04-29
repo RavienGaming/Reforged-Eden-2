@@ -29,24 +29,24 @@ body:
 - type: input
   id: pfname
   attributes:
-    label: Playfield Name
-    description: "Name of the planet, moon, or sector where the issue occurs. (Optional)"
+    label: Playfield Name (Optional)
+    description: "Name of the planet, moon, or sector where the issue occurs."
     placeholder: "ex Sienna, Delta IV, Epsilon Rho"
 - type: input
   id: pftype
   attributes:
-    label: Playfield Class
-    description: "Class of the planet, moon, or sector where the issue occurs. You can find the playfield class on the map description. (Optional)"
+    label: Playfield Class (Optional)
+    description: "Class of the planet, moon, or sector where the issue occurs. You can find the playfield class on the map description."
     placeholder: "ex Temperate, Rocky Desert, Poor Quality Asteroid Field"
 - type: input
   id: starname
   attributes:
-    label: Star Name
-    description: "Name of the star system from the galaxy map where the issue occurs. (Optional)"
+    label: Star Name (Optional)
+    description: "Name of the star system from the galaxy map where the issue occurs."
     placeholder: "ex Alpha, Beta, Neyta Rho"
 - type: input
   id: starclass
   attributes:
-    label: Star Class
-    description: "Class of the star system from the galaxy map where the issue occurs. Appears on the galaxy map in brackets next to the name. (Optional)"
+    label: Star Class (Optional)
+    description: "Class of the star system from the galaxy map where the issue occurs. Appears on the galaxy map in brackets next to the name."
     placeholder: "G2, B, O3, F"
