@@ -7,11 +7,11 @@ body:
 - type: markdown
   attributes:
     value:
-  "## Important: Please Read First"
+      "## Important: Please Read First"
 - type: markdown
   attributes:
     value:
-        "Thank you for taking the time to report an issue with Reforged Eden 2!\nPlease fill out this form with all relevant information. Bug reports that lack needed information may be ignored.\n**Note that we cannot assist with game bugs. If your issue is a result of a game bug it will be closed.**"
+      "Thank you for taking the time to report an issue with Reforged Eden 2!\nPlease fill out this form with all relevant information. Bug reports that lack needed information may be ignored.\n**Note that we cannot assist with game bugs. If your issue is a result of a game bug it will be closed.**"
 - type: markdown
   attributes:
     value:
