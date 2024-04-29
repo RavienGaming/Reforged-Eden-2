@@ -21,22 +21,10 @@ body:
   validations:
     required: true
 - type: dropdown
-  id: buildnewest
-  attributes:
-    label: "Is your RE2 build up to date?"
-    description: "Please verify the build number shown in-game matches the build number of the latest Reforged Eden 2 update on the Workshop."
-    options:
-      - "*Please select an option.*"
-      - Yes, it matches.
-      - No, it does not match. (Your issue may be due to an outdated version of the scenario)
-      - Scenario doesn't load far enough to see.
-  validations:
-    required: true
-- type: dropdown
   id: mode
   attributes:
     label: "Game mode"
-    description: "Game mode where the issue occurs. You can select multiple options.\n*Co-op is not recommended. If playing on a server you may first want to contact your server owner as this may be a server configuration problem rather than a scenario problem.*"
+    description: "Game modes where the issue occurs. You can select multiple options.\n*Co-op is not recommended. If playing on a server you may first want to contact your server owner as this may be a server configuration problem rather than a scenario problem.*"
     multiple: true
     options:
       - Single Player
