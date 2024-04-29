@@ -1,6 +1,5 @@
 name: Scenario Bug Report
 description: Submit a report about a problem with Reforged Eden 2.
-title: "[Bug]: "
 labels: ["new"]
 body:
 - type: markdown
