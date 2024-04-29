@@ -8,7 +8,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "\n# \n# Required Information:"
+    value: "\n# \n# Required Information:\n*Required information for submitting a bug report. Please be as detailed as possible.*"
 - type: markdown
   attributes:
     value: "*Reminder before reporting any issue to please do a quick search to see if your issue was already posted here on GitHub (don't forget to search closed issues as well) and read over the troubleshooting thread posted on the Workshop:* https://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/"
@@ -52,7 +52,7 @@ body:
 
 - type: markdown
   attributes:
-    value: "\n# \n# Optional Information:\nCan help narrow down where the issue occurs. Especially helpful for POI, mission, or playfield errors."
+    value: "\n# \n# Optional Information:\n*Can help narrow down where the issue occurs. Especially helpful for POI, mission, or playfield errors.*"
 - type: input
   id: poiname
   attributes:
