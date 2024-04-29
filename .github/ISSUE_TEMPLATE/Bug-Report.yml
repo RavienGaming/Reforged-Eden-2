@@ -15,7 +15,9 @@ body:
     label: Important Troubleshooting Information
     description: "Before reporting any issue, please do a quick search to see if your issue was already posted here on GitHub (don't forget to search closed issues as well) and read over the troubleshooting thread posted on the Workshop: https://steamcommunity.com/workshop/filedetails/discussion/2550354956/3807281445021139863/"
     options:
-      - I have searched for my issue and read over the troubleshooting thread.
+      - I have not searched for my issue or read the troubleshooting thread.
+      - I have searched for my issue and read the troubleshooting thread.
+        required: true
   validations:
     required: true
 - type: input
