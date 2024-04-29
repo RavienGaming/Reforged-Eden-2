@@ -33,9 +33,6 @@ body:
   validations:
     required: true
 
-- type: markdown
-  attributes:
-    value: "\n# \n### Description:\n*A description of the problem you encountered.*"
 - type: textarea
   id: issue
   attributes:
