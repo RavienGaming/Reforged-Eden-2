@@ -16,7 +16,7 @@ body:
   id: build
   attributes:
     label: Reforged Eden 2 Build Number
-    description: "What is the RE2 build number? You can find the RE2 build number on the player inventory window in-game or on the loading screen to compare it to the build number listed on the latest Change Note on the Workshop."
+    description: "What is the RE2 build number? You can find the RE2 build number on the player inventory window in-game or on the loading screen to compare it to the build number listed on the latest Change Note on the Workshop. If you're unable to load the scenario to see it you can put NA."
     placeholder: "ex 1234"
   validations:
     required: true
@@ -28,13 +28,14 @@ body:
     options:
       - Yes, it matches.
       - No, it does not match. (Your issue may be due to an outdated version of the scenario)
+      - Scenario doesn't load far enough to see.
   validations:
     required: true
 - type: dropdown
   id: mode
   attributes:
     label: "Game mode"
-    description: "Game mode where the issue occurs. Note that playing Reforged Eden 2 in co-op is not recommended."
+    description: "Game mode where the issue occurs. You can select multiple options.\n*Co-op is not recommended. If playing on a server you may first want to contact your server owner as this may be a server configuration problem rather than a scenario problem.*"
     multiple: true
     options:
       - Single Player
